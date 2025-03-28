@@ -5,9 +5,9 @@ let btn=document.getElementById("button")
 let h=document.getElementById("url")
 
 
-btn.addEventListner("click",(e)=>{
+btn.addEventListener("click",(e)=>{
 let name=document.getElementById("name").value
-let year=documet.getElementById("year").value
+let year=document.getElementById("year").value
 	let queryParameter=[];
 
 	
